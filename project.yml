@@ -1,0 +1,9 @@
+packages:
+  - name: resources
+    environment:
+        DATABASE_USERNAME: "${DATABASE_USERNAME}"
+        DATABASE_PASSWORD: "${DATABASE_PASSWORD}"
+        DATABASE_HOST: "${DATABASE_HOST}"
+    actions:
+      - name: user
+        runtime: 'nodejs:default'

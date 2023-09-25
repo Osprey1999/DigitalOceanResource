@@ -1,0 +1,13 @@
+{
+    "name": "user",
+    "version": "1.0.0",
+    "description": "Dora user data: NodeJs",
+    "main": "user.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "sequelize": "^6.11.0"
+    }
+  }
+  
